@@ -66,5 +66,3 @@ with open(file_path, 'w') as json_file:
 
 print(f"Data saved to {file_path}")
 """
-
-

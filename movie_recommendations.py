@@ -2,7 +2,7 @@ from dotenv import load_dotenv, find_dotenv
 import json
 import os
 import openai
-from openai.embeddings_utils import get_embedding, cosine_similarity
+from openai.embeddings.utils import get_embedding, cosine_similarity
 import numpy as np
 
 _ = load_dotenv('openAI.env')
